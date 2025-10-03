@@ -1,7 +1,3 @@
-import pypandoc
-
-# README content in markdown
-readme_content = """
 # 📝 Test Scenarios for Web Application
 
 ## 📌 Project Overview
@@ -62,22 +58,6 @@ The test scenarios are categorized into different priority levels:
 | **P3**   | 20               | 713              |
 | **P4**   | 2                | 45               |
 | **Total**| 30               | **1026**         |
-
----
-
-## 🚀 How to Use
-1. Review the **Test Scenario ID** and its description.  
-2. Identify the **priority** to determine the execution order.  
-3. Execute the **test cases** associated with each scenario.  
-4. Log defects in the bug-tracking tool (e.g., JIRA) with references to scenario IDs.  
-
----
-
-## ✅ Best Practices
-- Start execution with **P0 & P1** scenarios.  
-- Validate **end-to-end workflows** before moving to P3/P4 scenarios.  
-- Ensure **cross-browser and multi-currency** validations.  
-- Perform **regression testing** after fixes.  
 
 ---
 
